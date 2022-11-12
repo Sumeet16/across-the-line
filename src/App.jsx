@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="main_cont">
       <div className="App">
-        <div className="logo"><img className='logo_img' src="./src/assets/logo.png" alt="logo" srcset="" /></div>
+        <div className="logo"><img className='logo_img' src="https://imgur.com/mP9k9iB" alt="logo" srcset="" /></div>
         <div className='inner_div'>
           <h1 className='heading'>Across The Line</h1>
           <a href="#" className='button'>Download Now</a></div>
@@ -21,15 +21,15 @@ function App() {
 
         <div className="card_grp">
           <div className="card">
-            <img src="./src/assets/prop.jpeg" alt="" srcset="" />
+            <img src="https://imgur.com/RhiOYPl" alt="prop" srcset="" />
             <p className="card_text">Escape</p>
           </div>
           <div className="card">
-            <img src="./src/assets/prop.jpeg" alt="" srcset="" />
+            <img src="https://imgur.com/RhiOYPl" alt="prop" srcset="" />
             <p className="card_text">Uncover</p>
           </div>
           <div className="card">
-            <img src="./src/assets/prop.jpeg" alt="" srcset="" />
+            <img src="https://imgur.com/RhiOYPl" alt="prop" srcset="" />
             <p className="card_text">Survive</p>
           </div>
         </div>
@@ -47,7 +47,7 @@ function App() {
         </div>
 
         <div className="screen_4">
-          <div className="logo_new"><img className='logo_img_new' src="./src/assets/logo.png" alt="logo" srcset="" /></div>
+          <div className="logo_new"><img className='logo_img_new' src="https://imgur.com/mP9k9iB" alt="logo" srcset="" /></div>
           <div className='inner_div'>
             <h1 className='heading new'>Across The Line</h1>
             <p className="desc sec">Coming Soon...</p>
