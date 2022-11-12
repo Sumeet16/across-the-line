@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import './App.css'
+import logo from "../src/img/logo.png"
+import prop from "../src/img/prop.jpeg"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -7,7 +9,7 @@ function App() {
   return (
     <div className="main_cont">
       <div className="App">
-        <div className="logo"><img className='logo_img' src='./img/logo.png' alt="logo" srcset="" /></div>
+        <div className="logo"><img className='logo_img' src={logo} alt="logo" srcset="" /></div>
         <div className='inner_div'>
           <h1 className='heading'>Across The Line</h1>
           <a href="#" className='button'>Download Now</a></div>
@@ -21,15 +23,15 @@ function App() {
 
         <div className="card_grp">
           <div className="card">
-            <img src="./img/prop.jpeg" alt="prop" srcset="" />
+            <img src={prop} alt="prop" srcset="" />
             <p className="card_text">Escape</p>
           </div>
           <div className="card">
-            <img src="./img/prop.jpeg" alt="prop" srcset="" />
+            <img src={prop} alt="prop" srcset="" />
             <p className="card_text">Uncover</p>
           </div>
           <div className="card">
-            <img src="./img/prop.jpeg" alt="prop" srcset="" />
+            <img src={prop} alt="prop" srcset="" />
             <p className="card_text">Survive</p>
           </div>
         </div>
@@ -47,7 +49,7 @@ function App() {
         </div>
 
         <div className="screen_4">
-          <div className="logo_new"><img className='logo_img_new' src="./img/logo.png" alt="logo" srcset="" /></div>
+          <div className="logo_new"><img className='logo_img_new' src={logo} alt="logo" srcset="" /></div>
           <div className='inner_div'>
             <h1 className='heading new'>Across The Line</h1>
             <p className="desc sec">Coming Soon...</p>
