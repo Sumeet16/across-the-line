@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import './App.css'
 import logo from "../src/img/logo.png"
-import prop from "../src/img/prop.jpeg"
+import prop from "../src/img/Escape.png"
+import prop1 from "../src/img/Uncover.png"
+import prop2 from "../src/img/Survive.png"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,11 +29,11 @@ function App() {
             <p className="card_text">Escape</p>
           </div>
           <div className="card">
-            <img src={prop} alt="prop" srcset="" />
+            <img src={prop1} alt="prop" srcset="" />
             <p className="card_text">Uncover</p>
           </div>
           <div className="card">
-            <img src={prop} alt="prop" srcset="" />
+            <img src={prop2} alt="prop" srcset="" />
             <p className="card_text">Survive</p>
           </div>
         </div>
@@ -41,7 +43,7 @@ function App() {
           <p className="sub_heading left">Dive into the depth of <span>darkness</span> filled with <span>horror</span>.</p>
 
           <div className="youtube_cont">
-            <iframe width="640" height="360" src="https://www.youtube.com/embed/UC1f9q_Y7wo" title="Farewell North - Demo Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/m7s64Uc3UXo" title="Farewell North - Demo Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p className="desc">Deep into the darkness peering long I stood there, wondering, fearing doubting, dreaming dreams no mortal ever dared to dream before. I reside in dark to outlive the long intervals of horrible sanity. The walls of hell breaths fire and the floors are covered in layers of blood, upon which the dead and the devil feeds, but when I don’t find peace in that flaming furnace, I walk on earth to feed upon the fear, terror and flesh of the mortal. <br /><br />
               I’m a Ghoul and I’m coming for you.
             </p>
