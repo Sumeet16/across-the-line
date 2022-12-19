@@ -14,7 +14,7 @@ function App() {
         <div className="logo"><img className='logo_img' src={logo} alt="logo" srcset="" /></div>
         <div className='inner_div'>
           <h1 className='heading'>Across The Line</h1>
-          <a href="#" className='button'>Download Now</a></div>
+          <a href="https://drive.google.com/file/d/1Wqd9yaTK8rVWXQZ6nwOYqIIPpmfBG4rW/view?usp=sharing" target="_blank" className='button'>Download Now</a></div>
       </div>
 
       <div className="blur-filter">
